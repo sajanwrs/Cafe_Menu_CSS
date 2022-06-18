@@ -1,0 +1,97 @@
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+h1, h2, p{
+    text-align: center;
+}
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+.established {
+    font-style: italic;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+/*The CSS width property is to make the content not take up the entire width of the page*/
+    .menu{
+    width: 80%;
+    background-color: burlywood;
+    /* To center the contents horizontally, set margin-left and margin-right properties to auto */
+    margin-left: auto;
+    margin-right: auto;
+    /* To give some space between the content and the sides, add various padding properties */
+    padding: 20px;
+    max-width: 500px;
+}
+/* inline-block elements only take up the width of their content. To spread them out, add a width property */
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    float: right;
+    width: 25%;
+}
+/* To style all the p elements nested anywhere in elements with a class */
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+}
+
+/* To make the footer links the same color regardless if a link has been visited */
+a{
+    color: black;
+}
+
+/* changing properties of a link when the link has actually been visited by using a pseudo-selector */
+a:visited{
+    color: black;
+}
+
+/* changing properties of a link when the mouse hovers over them by using a pseudo-selector */
+a:hover{
+    color: brown;
+}
+
+/* changing properties of a link when the link is actually being clicked by using a pseudo-selector */
+a:active{
+    color: brown;
+}
+
+.address{
+    margin-bottom: 5px;
+}
